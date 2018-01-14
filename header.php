@@ -14,7 +14,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Title <?php wp_title('| '); ?></title>
+  <title>AdvDentalTemps <?php wp_title('| '); ?></title>
 
   <!-- Bootstrap core CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
@@ -38,6 +38,29 @@
 
 <body><!-- Body begins here. -->
 
-  <nav>
-  <!-- NAVIGATION GOES HERE -->
+  <nav class="col-xs-12">
+    <div id="nav-container">
+      <a href="">
+        <div id="nav-logo">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-logo.png" alt="Advanced Dental Associates, Inc. logo.">
+          <h1>Advanced Dental<br> Associates, Inc.</h1>
+        </div>
+      </a>
+      <div id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
   </nav>
+
+  <div id="nav-menu" class="col-xs-12">
+    <ul class="list-unstyled">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+  </div>

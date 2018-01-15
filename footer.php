@@ -20,5 +20,6 @@
 
 
 <?php wp_footer(); ?>
+</div><!-- END CONTENT -->
 </body>
 </html>

@@ -38,6 +38,13 @@
 
 <body><!-- Body begins here. -->
 
+  <div class="preload">
+    <img src="http://i.imgur.com/KUJoe.gif">
+    <span>Cleaning teeth...</span>
+  </div>
+
+  <div class="content">
+
   <nav class="col-xs-12">
     <div id="nav-container">
       <a href="">
@@ -46,21 +53,22 @@
           <h1>Advanced Dental<br> Associates, Inc.</h1>
         </div>
       </a>
-      <div id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+      <div id="nav-open">
+        <span>Menu</span>
       </div>
     </div>
   </nav>
 
   <div id="nav-menu" class="col-xs-12">
-    <ul class="list-unstyled">
-      <li>One</li>
-      <li>Two</li>
-      <li>Three</li>
-    </ul>
+    <div id="nav-close">
+      <span>Close</span>
+    </div>
+    <div id="nav-list">
+      <ul>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#info">Info</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </div>

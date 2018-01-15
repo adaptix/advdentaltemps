@@ -1,3 +1,46 @@
+$lightblue: #BDDEF5;
+$darkblue: #000000;
+$white: #ffffff;
+$green: #3BB487;
+
 body {
   font-size: 16px;
+}
+
+header {
+  background-color: $darkblue;
+  margin-top: 60px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    margin-top: -100px;
+  }
+}
+
+.content {
+  display:none;
+}
+.preload {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  span {
+    margin-top: 20px;
+  }
+}
+
+#about {
+  background-color: yellow;
+  height: 1000px;
+}
+
+#info {
+  background-color: blue;
+  height: 1000px;
 }

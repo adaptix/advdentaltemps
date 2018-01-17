@@ -20,7 +20,25 @@ header {
   align-items: center; }
   header h1 {
     margin-top: -100px; }
+  header p {
+    width: 90%; }
+  header ul {
+    text-align: left; }
+    header ul li {
+      font-size: .8em; }
 
+@media (min-width: 768px) {
+  header p {
+    width: 75%; } }
+@media (min-width: 992px) {
+  header p {
+    width: 50%; } }
+@media (min-width: 1200px) {
+  header p {
+    width: 40%; } }
+@media (min-width: 1400px) {
+  header p {
+    width: 30%; } }
 /*.content {
   display:none;
 }
@@ -66,8 +84,7 @@ header {
     #positions .position .position__content {
       top: 25%; } }
 #about {
-  background-color: yellow;
-  height: 1000px; }
+  background-color: yellow; }
 
 #info {
   background-color: blue;

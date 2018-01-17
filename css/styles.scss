@@ -29,6 +29,55 @@ header {
   h1 {
     margin-top: -100px;
   }
+  p {
+    width: 90%;
+  }
+  ul {
+    text-align: left;
+    li {
+      font-size: .8em;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+
+  header {
+    p {
+      width: 75%;
+    }
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  header {
+    p {
+      width: 50%;
+    }
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  header {
+    p {
+      width: 40%;
+    }
+  }
+
+}
+
+@media (min-width: 1400px) {
+
+  header {
+    p {
+      width: 30%;
+    }
+  }
+
 }
 
 /*.content {
@@ -93,7 +142,6 @@ header {
 
 #about {
   background-color: yellow;
-  height: 1000px;
 }
 
 #info {

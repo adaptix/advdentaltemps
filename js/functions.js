@@ -7,8 +7,8 @@ $(document).ready(function(){
 	});
 
 	$('#nav-close').click(function(){
-		$('#nav-menu').fadeOut();
-		$('#nav-list ul').fadeOut();
+		$('#nav-menu').hide();
+		$('#nav-list ul').hide();
 		$('main').show();
 	});
 
@@ -19,8 +19,8 @@ $(document).ready(function(){
 
 });
 
-$(function() {
+/*$(function() {
 		$(".preload").fadeOut(2000, function() {
 		$(".content").fadeIn(1000);
 	});
-});
+});*/

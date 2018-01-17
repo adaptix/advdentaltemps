@@ -1,6 +1,14 @@
 body {
   font-size: 16px; }
 
+img {
+  width: 100%; }
+
+.advdental-container {
+  max-width: 1080px;
+  margin: 0 auto !important;
+  float: none !important; }
+
 header {
   background-color: #000000;
   margin-top: 60px;
@@ -13,18 +21,50 @@ header {
   header h1 {
     margin-top: -100px; }
 
-.content {
-  display: none; }
-
+/*.content {
+  display:none;
+}
 .preload {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
-  .preload span {
-    margin-top: 20px; }
+  align-items: center;
+  span {
+    margin-top: 20px;
+  }
+}*/
+#positions .position {
+  padding-top: 50px;
+  padding-bottom: 100px; }
 
+@media (min-width: 768px) {
+  #positions .position {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 500px; }
+    #positions .position #dentist {
+      background-image: url("../img/placeholder-logo.png");
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center; }
+    #positions .position #dental-hygienist {
+      background-image: url("../img/placeholder-logo.png");
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center; }
+    #positions .position #dental-assistant {
+      background-image: url("../img/placeholder-logo.png");
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center; }
+    #positions .position #front-office-staff {
+      background-image: url("../img/placeholder-logo.png");
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center; }
+    #positions .position .position__content {
+      top: 25%; } }
 #about {
   background-color: yellow;
   height: 1000px; }

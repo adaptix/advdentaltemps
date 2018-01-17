@@ -38,10 +38,10 @@
 
 <body><!-- Body begins here. -->
 
-  <div class="preload">
+  <!--<div class="preload">
     <img src="http://i.imgur.com/KUJoe.gif">
     <span>Cleaning teeth...</span>
-  </div>
+  </div>-->
 
   <div class="content">
 

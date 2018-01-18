@@ -1,36 +1,67 @@
+/* Colors */
+/* Fonts
+font-family: 'Raleway', sans-serif; weights: 100,400,900
+font-family: 'Playfair Display', serif; weights: 400,900;
+*/
 nav {
   z-index: 100;
   position: fixed !important;
   padding-bottom: 10px;
-  background-color: #BDDEF5;
-  text-align: center;
-  display: block; }
+  background-color: #BDDEF5; }
   nav #nav-container {
     width: 320px;
-    margin: 0 auto; }
-  nav #nav-logo {
-    margin-top: 10px; }
-    nav #nav-logo img {
-      width: 50px;
-      float: left; }
-    nav #nav-logo h1 {
-      color: #000000;
-      text-align: left;
-      margin-top: 5px;
-      margin-left: 10px;
-      float: left;
-      font-size: 1.30em;
-      line-height: 1em; }
+    margin: 0 auto;
+    text-align: center;
+    display: block; }
+    nav #nav-container #nav-logo {
+      margin-top: 10px; }
+      nav #nav-container #nav-logo img {
+        width: 50px;
+        float: left; }
+      nav #nav-container #nav-logo h1 {
+        font-family: 'Raleway' , sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #29638E;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 10px;
+        float: left;
+        font-size: 1em;
+        line-height: 1em; }
+    nav #nav-container #nav-open span {
+      background-color: #29638E;
+      padding: 5px 10px 5px 10px;
+      border-radius: 25px;
+      color: #ffffff;
+      font-size: .6em;
+      font-family: 'Raleway' , sans-serif;
+      font-weight: 900;
+      text-transform: uppercase; }
 
 #nav-menu {
+  position: fixed;
   text-align: center;
   background-color: #3BB487;
   display: none;
   height: 100vh;
-  z-index: 100; }
+  z-index: 1000; }
   #nav-menu #nav-close {
+    width: 50px;
+    margin: auto;
+    padding-left: 180px;
     padding-top: 10px;
-    margin-left: 210px; }
+    margin-left: px; }
+    #nav-menu #nav-close span {
+      background-color: #29638E;
+      padding: 5px 10px 5px 10px;
+      border-radius: 25px;
+      color: #ffffff;
+      font-size: .6em;
+      font-family: 'Raleway' , sans-serif;
+      font-weight: 900;
+      text-transform: uppercase; }
   #nav-menu #nav-list {
     height: 90%;
     display: flex;

@@ -24,7 +24,7 @@
   <link href="<?php echo get_bloginfo('template_directory'); ?>/css/styles.css" rel="stylesheet">
 
   <!-- Google Fonts -->
-  <!--  EMBEDDED GOOGLE FONTS GO HERE -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Raleway:100,400,900" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -42,6 +42,16 @@
     <img src="http://i.imgur.com/KUJoe.gif">
     <span>Cleaning teeth...</span>
   </div>-->
+
+  <div id="tooshort">
+    <h1>Stop squishing me!</h1>
+    <p>Your screen is too short! Resize your browser window to properly view the site.</p>
+  </div>
+
+  <div id="toonarrow">
+    <h1>Whoa, whoa, whoa!</h1>
+    <p>Your screen is too narrow! Resize your browser window to properly view the site.</p>
+  </div>
 
   <div class="content">
 

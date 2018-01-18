@@ -1,6 +1,6 @@
-<footer><!-- Start footer here. -->
+<footer class="col-xs-12"><!-- Start footer here. -->
 
-  <!-- CONTENT GOES HERE -->
+  <p>11312 US 15-501 North • Suite 107-139 • Chapel Hill, NC 27517 • Phone - 919.545.0985</p>
 
 </footer><!-- End footer here. -->
 

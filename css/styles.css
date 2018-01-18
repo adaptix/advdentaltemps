@@ -1,6 +1,54 @@
+/* Colors */
+/* Fonts
+font-family: 'Raleway', sans-serif; weights: 100,400,900
+font-family: 'Playfair Display', serif; weights: 400,900;
+*/
+/* Typography */
+p {
+  font-size: 1em;
+  font-family: 'Playfair Display' , serif; }
+
+h1 {
+  font-size: 1.5em;
+  font-family: 'Raleway' , sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+/* Universal */
 body {
   font-size: 16px; }
 
+@media (max-height: 319px) {
+  #tooshort {
+    color: #29638E;
+    margin-top: 15%;
+    text-align: center;
+    width: 90%;
+    margin: auto; }
+    #tooshort a {
+      color: #3BB487; }
+
+  .content {
+    display: none; } }
+@media (max-width: 319px) {
+  #toonarrow {
+    color: #29638E;
+    margin-top: 15%;
+    text-align: center;
+    width: 90%;
+    margin: auto; }
+    #toonarrow a {
+      color: #3BB487; }
+
+  .content {
+    display: none; } }
+@media (min-height: 320px) {
+  #tooshort {
+    display: none; } }
+@media (min-width: 320px) {
+  #toonarrow {
+    display: none; } }
 img {
   width: 100%; }
 
@@ -10,22 +58,59 @@ img {
   float: none !important; }
 
 header {
-  background-color: #000000;
+  background-image: url("../img/intro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
   margin-top: 60px;
   text-align: center;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 0px 0px 6px #000000; }
   header h1 {
-    margin-top: -100px; }
+    margin-top: -40px; }
   header p {
     width: 90%; }
   header ul {
     text-align: left; }
     header ul li {
-      font-size: .8em; }
+      font-size: .8em;
+      font-family: 'Raleway' , sans-serif;
+      font-weight: 400; }
+  header .down-arrow {
+    margin-top: 10px;
+    font-size: 1.5em; }
+    header .down-arrow a {
+      color: #ffffff; }
+    header .down-arrow .blinkme {
+      animation: blinker 4s linear infinite; }
+@keyframes blinker {
+  50% {
+    opacity: 0; } }
+    header .down-arrow .blinkme:hover {
+      animation: none; }
+
+#intro-list {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../img/coat.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #29638E;
+  margin: auto 0; }
+  #intro-list div {
+    width: 300px;
+    margin: auto; }
+    #intro-list div ul {
+      text-align: left; }
+      #intro-list div ul li {
+        font-size: .8em;
+        font-family: 'Raleway' , sans-serif;
+        font-weight: 400; }
 
 @media (min-width: 768px) {
   header p {
@@ -84,10 +169,40 @@ header {
     #positions .position .position__content {
       top: 25%; } }
 #about {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: yellow; }
+  #about #about-nav {
+    text-align: center; }
+    #about #about-nav ul {
+      display: inline; }
+      #about #about-nav ul li {
+        display: inline-block; }
+  #about #about-mindy {
+    display: none; }
 
 #info {
-  background-color: blue;
-  height: 1000px; }
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: blue; }
+  #info #resources .resource {
+    margin: 0;
+    padding: 0; }
+
+#contact {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #contact #forms-nav ul {
+    display: inline; }
+    #contact #forms-nav ul li {
+      display: inline-block; }
+  #contact #applicant-form {
+    display: none; }
+
+footer {
+  background-color: #29638E;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

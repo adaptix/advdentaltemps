@@ -143,29 +143,35 @@ header {
 
 @media (min-width: 768px) {
   #positions .position {
+    margin: 0;
     padding-top: 0px;
     padding-bottom: 0px;
-    height: 500px; }
+    height: 500px;
+    color: #29638E; }
     #positions .position #dentist {
-      background-image: url("../img/placeholder-logo.png");
+      background-image: url("../img/dentist.jpg");
       height: 100%;
       background-repeat: no-repeat;
-      background-position: center; }
+      background-position: center;
+      background-size: cover; }
     #positions .position #dental-hygienist {
-      background-image: url("../img/placeholder-logo.png");
+      background-image: url("../img/dental-hygienist.jpg");
       height: 100%;
       background-repeat: no-repeat;
-      background-position: center; }
+      background-position: center;
+      background-size: cover; }
     #positions .position #dental-assistant {
-      background-image: url("../img/placeholder-logo.png");
+      background-image: url("../img/dental-assistant.jpg");
       height: 100%;
       background-repeat: no-repeat;
-      background-position: center; }
+      background-position: center;
+      background-size: cover; }
     #positions .position #front-office-staff {
-      background-image: url("../img/placeholder-logo.png");
+      background-image: url("../img/office-manager.jpg");
       height: 100%;
       background-repeat: no-repeat;
-      background-position: center; }
+      background-position: center;
+      background-size: cover; }
     #positions .position .position__content {
       top: 25%; } }
 #about {

@@ -227,32 +227,38 @@ header {
 
   #positions {
     .position {
+      margin: 0;
       padding-top: 0px;
       padding-bottom: 0px;
       height: 500px;
+      color: $darkblue;
       #dentist {
-        background-image: url('../img/placeholder-logo.png');
+        background-image: url('../img/dentist.jpg');
         height: 100%;
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
       }
       #dental-hygienist {
-        background-image: url('../img/placeholder-logo.png');
+        background-image: url('../img/dental-hygienist.jpg');
         height: 100%;
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
       }
       #dental-assistant {
-        background-image: url('../img/placeholder-logo.png');
+        background-image: url('../img/dental-assistant.jpg');
         height: 100%;
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
       }
       #front-office-staff {
-        background-image: url('../img/placeholder-logo.png');
+        background-image: url('../img/office-manager.jpg');
         height: 100%;
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
       }
       .position__content {
         top: 25%;

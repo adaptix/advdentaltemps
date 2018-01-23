@@ -13,24 +13,38 @@ font-family: 'Playfair Display', serif; weights: 400,900;
 
 p {
   font-size: 1em;
+  line-height: 1.75em;
   font-family: 'Playfair Display' , serif;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 2em;
   font-family: 'Raleway' , sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
+h2 {
+  font-size: 2em;
+  font-family: 'Raleway' , sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: 'Raleway' , sans-serif;
+  font-weight: 900;
+}
 
 /* Universal */
 body {
   font-size: 16px;
 }
 
-@media (max-height: 319px) {
+@media (max-height: 374px) {
 
   #tooshort {
     color: $darkblue;
@@ -68,7 +82,7 @@ body {
 
 }
 
-@media (min-height: 320px) {
+@media (min-height: 375px) {
 
   #tooshort {
     display: none;
@@ -141,8 +155,8 @@ header {
 }
 
 #intro-list {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-image: url('../img/coat.jpg');
   background-size: cover;
   background-position: center;
@@ -220,6 +234,7 @@ header {
   .position {
     padding-top: 50px;
     padding-bottom: 100px;
+    color: $darkblue;
   }
 }
 
@@ -231,7 +246,6 @@ header {
       padding-top: 0px;
       padding-bottom: 0px;
       height: 500px;
-      color: $darkblue;
       #dentist {
         background-image: url('../img/dentist.jpg');
         height: 100%;
@@ -271,13 +285,39 @@ header {
 #about {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: yellow;
+  background-color: $green;
+  h3 {
+    color: $white;
+    margin-bottom: 30px;
+  }
+  p {
+    color: $white;
+  }
+  li {
+    color: $white;
+  }
   #about-nav {
     text-align: center;
+    margin-bottom: 30px;
+    background-color: $darkblue;
+    padding: 30px;
     ul {
       display: inline;
+      color: $white;
+      font-size: 1.25em;
+      font-family: 'Raleway' , sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 1px;
       li {
+        color: $white;
         display: inline-block;
+      }
+      li:hover {
+        cursor: pointer;
+      }
+      .active {
+        border-bottom: 4px solid $white;
       }
     }
   }
@@ -306,6 +346,9 @@ header {
       display: inline;
       li {
         display: inline-block;
+      }
+      .active {
+        border-bottom: 3px solid $darkblue;
       }
     }
   }

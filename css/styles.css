@@ -6,20 +6,33 @@ font-family: 'Playfair Display', serif; weights: 400,900;
 /* Typography */
 p {
   font-size: 1em;
+  line-height: 1.75em;
   font-family: 'Playfair Display' , serif; }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 2em;
   font-family: 'Raleway' , sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 1px; }
 
+h2 {
+  font-size: 2em;
+  font-family: 'Raleway' , sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+h3 {
+  font-size: 1.5em;
+  font-family: 'Raleway' , sans-serif;
+  font-weight: 900; }
+
 /* Universal */
 body {
   font-size: 16px; }
 
-@media (max-height: 319px) {
+@media (max-height: 374px) {
   #tooshort {
     color: #29638E;
     margin-top: 15%;
@@ -43,7 +56,7 @@ body {
 
   .content {
     display: none; } }
-@media (min-height: 320px) {
+@media (min-height: 375px) {
   #tooshort {
     display: none; } }
 @media (min-width: 320px) {
@@ -95,8 +108,8 @@ header {
       animation: none; }
 
 #intro-list {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-image: url("../img/coat.jpg");
   background-size: cover;
   background-position: center;
@@ -139,15 +152,15 @@ header {
 }*/
 #positions .position {
   padding-top: 50px;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  color: #29638E; }
 
 @media (min-width: 768px) {
   #positions .position {
     margin: 0;
     padding-top: 0px;
     padding-bottom: 0px;
-    height: 500px;
-    color: #29638E; }
+    height: 500px; }
     #positions .position #dentist {
       background-image: url("../img/dentist.jpg");
       height: 100%;
@@ -177,13 +190,34 @@ header {
 #about {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: yellow; }
+  background-color: #3BB487; }
+  #about h3 {
+    color: #ffffff;
+    margin-bottom: 30px; }
+  #about p {
+    color: #ffffff; }
+  #about li {
+    color: #ffffff; }
   #about #about-nav {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #29638E;
+    padding: 30px; }
     #about #about-nav ul {
-      display: inline; }
+      display: inline;
+      color: #ffffff;
+      font-size: 1.25em;
+      font-family: 'Raleway' , sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
       #about #about-nav ul li {
+        color: #ffffff;
         display: inline-block; }
+      #about #about-nav ul li:hover {
+        cursor: pointer; }
+      #about #about-nav ul .active {
+        border-bottom: 4px solid #ffffff; }
   #about #about-mindy {
     display: none; }
 
@@ -202,6 +236,8 @@ header {
     display: inline; }
     #contact #forms-nav ul li {
       display: inline-block; }
+    #contact #forms-nav ul .active {
+      border-bottom: 3px solid #29638E; }
   #contact #applicant-form {
     display: none; }
 

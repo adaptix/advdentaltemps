@@ -15,7 +15,7 @@
 </header>
 <!-- END CONTACT SECTION -->
 
-<!-- BEGIN MOBILE LIST -->
+<!-- BEGIN INTRO LIST -->
 <div id="intro-list" class="col-xs-12">
   <div>
     <p>Some of our notable services include:</p>
@@ -29,7 +29,7 @@
      </ul>
   </div>
 </div>
-<!-- END MOBILE LIST -->
+<!-- END INTRO LIST -->
 
 <!-- BEGIN POSITIONS SECTION -->
 <section id="positions" class="col-xs-12">
@@ -112,7 +112,7 @@
     <!-- Begin about navigation. -->
     <div id="about-nav" class="col-xs-12">
       <ul class="list-unstyled">
-        <li id="about1">About Us</li> |
+        <li id="about1" class="active">About Us</li> |
         <li id="about2">About Mindy</li>
       </ul>
     </div>
@@ -120,7 +120,6 @@
 
     <!-- Begin about Advanced Dental Associates, Inc. section. -->
     <div id="about-advdental" class="col-xs-12">
-      <h2>Advanced Dental Associates, Inc. Vision</h2>
       <div class="col-xs-12 col-sm-6">
         <h3>Quality Over Quantity</h3>
         <p>Many of our new clients ask me, why are you different? Many of our regular clients will tell you it’s the commitment to matching the right candidate to the right practice. We believe in the uniqueness of every office and candidate. This is why we value our “face to face” interviews with each dental professional working with us. We feel this is integral to our success of providing quality dental staffing. We realize, not only does the candidate represents us, more importantly they represent our clients to their customers.</p>
@@ -132,16 +131,14 @@
       <div class="col-xs-12 col-sm-6">
         <h3>We Serve The Entire Team!</h3>
         <p>Job satisfaction is a major part of personal happiness. Career opportunities of a permanent and temporary nature are available through Advanced Dental Associates. If you seek job relocation, a new beginning or are returning to the work force, we can meet your every employment need.</p>
-        <p>
-          <ul class="list-unstyled">
-            <li>Commitment to recruitment</li>
-            <li>Licenses & certifications on file</li>
-            <li>24 hour emergency service</li>
-            <li>Confirmed placements</li>
-            <li>No fee to list or interview</li>
-            <li>Working interviews</li>
-          </ul>
-        </p>
+        <ul class="list-unstyled">
+          <li>Commitment to recruitment</li>
+          <li>Licenses & certifications on file</li>
+          <li>24 hour emergency service</li>
+          <li>Confirmed placements</li>
+          <li>No fee to list or interview</li>
+          <li>Working interviews</li>
+        </ul>
       </div>
     </div>
     <!-- End about Advanced Dental Associates, Inc. section. -->
@@ -215,7 +212,7 @@
         <!-- Begin forms navigation. -->
         <div id="forms-nav">
           <ul class="list-unstyled">
-            <li id="form1">Client Form</li>
+            <li id="form1" class="active">Client Form</li> |
             <li id="form2">Applicant Form</li>
           </ul>
         </div>

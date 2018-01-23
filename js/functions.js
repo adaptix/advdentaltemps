@@ -19,22 +19,30 @@ $(document).ready(function(){
 	$('#about1').click(function(){
 		$('#about-advdental').show();
 		$('#about-mindy').hide();
+		$(this).addClass('active');
+		$('#about2').removeClass('active');
 	});
 
 	$('#about2').click(function(){
 		$('#about-advdental').hide();
 		$('#about-mindy').show();
+		$('#about1').removeClass('active');
+		$(this).addClass('active');
 	});
 
 	//Forms navigation
 	$('#form1').click(function(){
 		$('#client-form').show();
 		$('#applicant-form').hide();
+		$(this).addClass('active');
+		$('#form2').removeClass('active');
 	});
 
 	$('#form2').click(function(){
 		$('#client-form').hide();
 		$('#applicant-form').show();
+		$('#form1').removeClass('active');
+		$(this).addClass('active');
 	});
 
 });

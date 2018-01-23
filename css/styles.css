@@ -28,6 +28,15 @@ h3 {
   font-family: 'Raleway' , sans-serif;
   font-weight: 900; }
 
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5em; } }
+@media (min-width: 992px) {
+  h1 {
+    font-size: 3em; } }
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 3.5em; } }
 /* Universal */
 body {
   font-size: 16px; }
@@ -108,8 +117,8 @@ header {
       animation: none; }
 
 #intro-list {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-image: url("../img/coat.jpg");
   background-size: cover;
   background-position: center;
@@ -127,16 +136,34 @@ header {
 
 @media (min-width: 768px) {
   header p {
-    width: 75%; } }
+    width: 80%;
+    font-size: 1.25em; }
+  header .down-arrow {
+    font-size: 2em; }
+
+  #intro-list {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #intro-list div {
+      width: auto;
+      margin: auto; }
+      #intro-list div p {
+        font-size: 1.5em; }
+      #intro-list div ul li {
+        font-size: 1.25em; } }
 @media (min-width: 992px) {
   header p {
-    width: 50%; } }
+    width: 70%; }
+  header .down-arrow {
+    font-size: 2.5em; } }
 @media (min-width: 1200px) {
   header p {
-    width: 40%; } }
-@media (min-width: 1400px) {
-  header p {
-    width: 30%; } }
+    width: 750px; }
+  header .down-arrow {
+    font-size: 3em; } }
 /*.content {
   display:none;
 }
@@ -150,57 +177,68 @@ header {
     margin-top: 20px;
   }
 }*/
-#positions .position {
-  padding-top: 50px;
-  padding-bottom: 100px;
-  color: #29638E; }
+#positions {
+  padding-bottom: 100px; }
+  #positions .position {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #29638E; }
 
 @media (min-width: 768px) {
-  #positions .position {
-    margin: 0;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    height: 500px; }
-    #positions .position #dentist {
-      background-image: url("../img/dentist.jpg");
-      height: 100%;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover; }
-    #positions .position #dental-hygienist {
-      background-image: url("../img/dental-hygienist.jpg");
-      height: 100%;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover; }
-    #positions .position #dental-assistant {
-      background-image: url("../img/dental-assistant.jpg");
-      height: 100%;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover; }
-    #positions .position #front-office-staff {
-      background-image: url("../img/office-manager.jpg");
-      height: 100%;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover; }
-    #positions .position .position__content {
-      top: 25%; } }
+  #positions {
+    padding-bottom: 0px; }
+    #positions .position {
+      margin: 0;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      height: 500px; }
+      #positions .position #dentist {
+        background-image: url("../img/dentist.jpg");
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      #positions .position #dental-hygienist {
+        background-image: url("../img/dental-hygienist.jpg");
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      #positions .position #dental-assistant {
+        background-image: url("../img/dental-assistant.jpg");
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      #positions .position #front-office-staff {
+        background-image: url("../img/office-manager.jpg");
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      #positions .position .position__content {
+        top: 25%; } }
 #about {
-  padding-top: 100px;
+  padding-top: 85px;
   padding-bottom: 100px;
   background-color: #3BB487; }
-  #about h3 {
+  #about h2 {
+    color: #ffffff;
+    margin-bottom: 10px; }
+  #about p {
     color: #ffffff;
     margin-bottom: 30px; }
-  #about p {
-    color: #ffffff; }
-  #about li {
-    color: #ffffff; }
+  #about #about-advdental ul {
+    margin-top: 30px;
+    text-align: left; }
+    #about #about-advdental ul li {
+      color: #ffffff;
+      font-size: .8em;
+      font-family: 'Raleway' , sans-serif;
+      font-weight: 400; }
   #about #about-nav {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-color: #29638E;
     padding: 30px; }
     #about #about-nav ul {
@@ -212,37 +250,73 @@ header {
       text-transform: uppercase;
       letter-spacing: 1px; }
       #about #about-nav ul li {
+        display: inline-block;
         color: #ffffff;
-        display: inline-block; }
+        font-family: 'Raleway' , sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px; }
       #about #about-nav ul li:hover {
         cursor: pointer; }
       #about #about-nav ul .active {
         border-bottom: 4px solid #ffffff; }
   #about #about-mindy {
     display: none; }
+    #about #about-mindy img {
+      margin-bottom: 20px; }
 
+@media (min-width: 768px) {
+  #about #about-advdental ul li {
+    font-size: 1.25em; }
+  #about #about-nav ul {
+    font-size: 1.5em; } }
 #info {
-  padding-top: 100px;
+  padding-top: 85px;
   padding-bottom: 100px;
-  background-color: blue; }
+  background-color: #29638E; }
   #info #resources .resource {
     margin: 0;
     padding: 0; }
+  #info #referral h3 {
+    color: #3BB487; }
 
 #contact {
-  padding-top: 100px;
-  padding-bottom: 100px; }
-  #contact #forms-nav ul {
-    display: inline; }
-    #contact #forms-nav ul li {
-      display: inline-block; }
-    #contact #forms-nav ul .active {
-      border-bottom: 3px solid #29638E; }
+  padding-top: 85px;
+  padding-bottom: 100px;
+  color: #29638E; }
+  #contact #forms-nav {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #29638E;
+    padding: 30px; }
+    #contact #forms-nav ul {
+      display: inline;
+      color: #ffffff;
+      font-size: 1em;
+      font-family: 'Raleway' , sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+      #contact #forms-nav ul li {
+        display: inline-block;
+        color: #ffffff;
+        font-family: 'Raleway' , sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+      #contact #forms-nav ul li:hover {
+        cursor: pointer; }
+      #contact #forms-nav ul .active {
+        border-bottom: 4px solid #ffffff; }
   #contact #applicant-form {
     display: none; }
 
+@media (min-width: 768px) {
+  #contact #forms-nav ul {
+    font-size: 1.5em; } }
 footer {
   background-color: #29638E;
+  color: #ffffff;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center; }

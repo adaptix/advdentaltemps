@@ -39,6 +39,30 @@ h3 {
   font-weight: 900;
 }
 
+@media (min-width: 768px) {
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  h1 {
+    font-size: 3em;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+}
+
 /* Universal */
 body {
   font-size: 16px;
@@ -155,8 +179,8 @@ header {
 }
 
 #intro-list {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-image: url('../img/coat.jpg');
   background-size: cover;
   background-position: center;
@@ -180,7 +204,31 @@ header {
 
   header {
     p {
-      width: 75%;
+      width: 80%;
+      font-size: 1.25em;
+    }
+    .down-arrow {
+      font-size: 2em;
+    }
+  }
+
+  #intro-list {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+      width: auto;
+      margin: auto;
+      p {
+        font-size: 1.5em;
+      }
+      ul {
+        li {
+          font-size: 1.25em;
+        }
+      }
     }
   }
 
@@ -190,7 +238,10 @@ header {
 
   header {
     p {
-      width: 50%;
+      width: 70%;
+    }
+    .down-arrow {
+      font-size: 2.5em;
     }
   }
 
@@ -200,17 +251,10 @@ header {
 
   header {
     p {
-      width: 40%;
+      width: 750px;
     }
-  }
-
-}
-
-@media (min-width: 1400px) {
-
-  header {
-    p {
-      width: 30%;
+    .down-arrow {
+      font-size: 3em;
     }
   }
 
@@ -231,9 +275,10 @@ header {
 }*/
 
 #positions {
+  padding-bottom: 100px;
   .position {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     color: $darkblue;
   }
 }
@@ -241,6 +286,7 @@ header {
 @media (min-width: 768px) {
 
   #positions {
+    padding-bottom: 0px;
     .position {
       margin: 0;
       padding-top: 0px;
@@ -283,22 +329,32 @@ header {
 }
 
 #about {
-  padding-top: 100px;
+  padding-top: 85px;
   padding-bottom: 100px;
   background-color: $green;
-  h3 {
+  h2 {
     color: $white;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   p {
     color: $white;
+    margin-bottom: 30px;
   }
-  li {
-    color: $white;
+  #about-advdental {
+    ul {
+      margin-top: 30px;
+      text-align: left;
+      li {
+        color: $white;
+        font-size: .8em;
+        font-family: 'Raleway' , sans-serif;
+        font-weight: 400;
+      }
+    }
   }
   #about-nav {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-color: $darkblue;
     padding: 30px;
     ul {
@@ -310,8 +366,12 @@ header {
       text-transform: uppercase;
       letter-spacing: 1px;
       li {
-        color: $white;
         display: inline-block;
+        color: $white;
+        font-family: 'Raleway' , sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px;
       }
       li:hover {
         cursor: pointer;
@@ -323,32 +383,78 @@ header {
   }
   #about-mindy {
     display: none;
+    img {
+      margin-bottom: 20px;
+    }
   }
 }
 
+@media (min-width: 768px) {
+
+  #about {
+    #about-advdental {
+      ul {
+        li {
+          font-size: 1.25em;
+        }
+      }
+    }
+    #about-nav {
+      ul {
+        font-size: 1.5em;
+      }
+    }
+  }
+
+}
+
 #info {
-  padding-top: 100px;
+  padding-top: 85px;
   padding-bottom: 100px;
-  background-color: blue;
+  background-color: $darkblue;
   #resources {
     .resource {
       margin: 0;
       padding:0;
     }
   }
+  #referral {
+    h3 {
+      color: $green;
+    }
+  }
 }
 
 #contact {
-  padding-top: 100px;
+  padding-top: 85px;
   padding-bottom: 100px;
+  color: $darkblue;
   #forms-nav {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: $darkblue;
+    padding: 30px;
     ul {
       display: inline;
+      color: $white;
+      font-size: 1em;
+      font-family: 'Raleway' , sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 1px;
       li {
         display: inline-block;
+        color: $white;
+        font-family: 'Raleway' , sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      li:hover {
+        cursor: pointer;
       }
       .active {
-        border-bottom: 3px solid $darkblue;
+        border-bottom: 4px solid $white;
       }
     }
   }
@@ -360,8 +466,22 @@ header {
   }
 }
 
+@media (min-width: 768px) {
+
+  #contact {
+    #forms-nav {
+      ul {
+        font-size: 1.5em;
+      }
+    }
+
+  }
+
+}
+
 footer {
   background-color: $darkblue;
+  color: $white;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;

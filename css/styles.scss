@@ -178,7 +178,7 @@ header {
   }
 }
 
-#intro-list {
+#services {
   padding-top: 100px;
   padding-bottom: 100px;
   background-image: url('../img/coat.jpg');
@@ -186,10 +186,14 @@ header {
   background-position: center;
   color: $darkblue;
   margin: auto 0;
+  text-align: center;
   div {
-    width: 300px;
-    margin: auto;
+    h2 {
+      margin-bottom: 20px;
+    }
     ul {
+      width: 300px;
+      margin: auto;
       text-align: left;
       li {
         font-size: .8em;
@@ -197,7 +201,40 @@ header {
         font-weight: 400;
       }
     }
+    p {
+      margin-top: 20px;
+    }
+    .down-arrow {
+      margin-top: 10px;
+      font-size: 1.5em;
+      a {
+        color: $darkblue;
+      }
+      .blinkme {
+      animation: blinker 4s linear infinite;
+      }
+      @keyframes blinker {
+        50% { opacity: 0; }
+      }
+      .blinkme:hover {
+        animation: none;
+      }
+    }
   }
+}
+
+@media (min-width: 500px) {
+
+  #services {
+    div {
+      h2 {
+        width: 445px;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -212,22 +249,25 @@ header {
     }
   }
 
-  #intro-list {
+  #services {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     div {
-      width: auto;
-      margin: auto;
       p {
         font-size: 1.5em;
       }
       ul {
+        width: auto;
+        margin: auto;
         li {
           font-size: 1.25em;
         }
+      }
+      .down-arrow {
+        font-size: 2em;
       }
     }
   }
@@ -280,6 +320,11 @@ header {
     padding-top: 50px;
     padding-bottom: 50px;
     color: $darkblue;
+    .position__content {
+      .position-nav {
+        display: none;
+      }
+    }
   }
 }
 
@@ -291,7 +336,7 @@ header {
       margin: 0;
       padding-top: 0px;
       padding-bottom: 0px;
-      height: 500px;
+      height: 750px;
       #dentist {
         background-image: url('../img/dentist.jpg');
         height: 100%;
@@ -320,8 +365,53 @@ header {
         background-position: center;
         background-size: cover;
       }
+      .position-right {
+        padding-left: 30px;
+      }
+      .position-left {
+        padding-right: 30px;
+      }
       .position__content {
-        top: 25%;
+        margin-top: 60px;
+        p {
+          font-size: .9em;
+        }
+        .position-nav {
+          display: block;
+        }
+        #dentist2 {
+          display: none;
+        }
+        #dentistB {
+          display: none;
+        }
+        #hygienist2 {
+          display: none;
+        }
+        #hygienistB {
+          display: none;
+        }
+        #assistant2 {
+          display: none;
+        }
+        #assistantB {
+          display: none;
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  #positions {
+    .position {
+      height: 700px;
+      .position__content {
+        p {
+          font-size: 1em;
+        }
       }
     }
   }
@@ -333,19 +423,23 @@ header {
   padding-bottom: 100px;
   background-color: $green;
   h2 {
-    color: $white;
-    margin-bottom: 10px;
+    color: $darkblue;
+    margin-bottom: 20px;
   }
   p {
-    color: $white;
+    color: $darkblue;
     margin-bottom: 30px;
   }
   #about-advdental {
+    margin-top: -10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: $white;
     ul {
       margin-top: 30px;
       text-align: left;
       li {
-        color: $white;
+        color: $darkblue;
         font-size: .8em;
         font-family: 'Raleway' , sans-serif;
         font-weight: 400;
@@ -382,11 +476,29 @@ header {
     }
   }
   #about-mindy {
+    margin-top: -10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: $white;
     display: none;
     img {
-      margin-bottom: 20px;
+      width: 100%;
+    }
+    h6 {
+      margin-bottom: 30px;
     }
   }
+}
+
+@media (min-width: 600px) {
+
+  #about {
+    #about-mindy {
+      img {
+      }
+    }
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -395,13 +507,27 @@ header {
     #about-advdental {
       ul {
         li {
-          font-size: 1.25em;
+          font-size: 1em;
         }
       }
     }
     #about-nav {
       ul {
         font-size: 1.5em;
+      }
+    }
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  #about {
+    #about-advdental {
+      ul {
+        li {
+          font-size: 1.25em;
+        }
       }
     }
   }

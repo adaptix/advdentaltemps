@@ -116,24 +116,45 @@ header {
     header .down-arrow .blinkme:hover {
       animation: none; }
 
-#intro-list {
+#services {
   padding-top: 100px;
   padding-bottom: 100px;
   background-image: url("../img/coat.jpg");
   background-size: cover;
   background-position: center;
   color: #29638E;
-  margin: auto 0; }
-  #intro-list div {
+  margin: auto 0;
+  text-align: center; }
+  #services div h2 {
+    margin-bottom: 20px; }
+  #services div ul {
     width: 300px;
-    margin: auto; }
-    #intro-list div ul {
-      text-align: left; }
-      #intro-list div ul li {
-        font-size: .8em;
-        font-family: 'Raleway' , sans-serif;
-        font-weight: 400; }
+    margin: auto;
+    text-align: left; }
+    #services div ul li {
+      font-size: .8em;
+      font-family: 'Raleway' , sans-serif;
+      font-weight: 400; }
+  #services div p {
+    margin-top: 20px; }
+  #services div .down-arrow {
+    margin-top: 10px;
+    font-size: 1.5em; }
+    #services div .down-arrow a {
+      color: #29638E; }
+    #services div .down-arrow .blinkme {
+      animation: blinker 4s linear infinite; }
+@keyframes blinker {
+  50% {
+    opacity: 0; } }
+    #services div .down-arrow .blinkme:hover {
+      animation: none; }
 
+@media (min-width: 500px) {
+  #services div h2 {
+    width: 445px;
+    margin: auto;
+    margin-bottom: 20px; } }
 @media (min-width: 768px) {
   header p {
     width: 80%;
@@ -141,19 +162,21 @@ header {
   header .down-arrow {
     font-size: 2em; }
 
-  #intro-list {
+  #services {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    #intro-list div {
+    #services div p {
+      font-size: 1.5em; }
+    #services div ul {
       width: auto;
       margin: auto; }
-      #intro-list div p {
-        font-size: 1.5em; }
-      #intro-list div ul li {
-        font-size: 1.25em; } }
+      #services div ul li {
+        font-size: 1.25em; }
+    #services div .down-arrow {
+      font-size: 2em; } }
 @media (min-width: 992px) {
   header p {
     width: 70%; }
@@ -183,6 +206,8 @@ header {
     padding-top: 50px;
     padding-bottom: 50px;
     color: #29638E; }
+    #positions .position .position__content .position-nav {
+      display: none; }
 
 @media (min-width: 768px) {
   #positions {
@@ -191,7 +216,7 @@ header {
       margin: 0;
       padding-top: 0px;
       padding-bottom: 0px;
-      height: 500px; }
+      height: 750px; }
       #positions .position #dentist {
         background-image: url("../img/dentist.jpg");
         height: 100%;
@@ -216,26 +241,56 @@ header {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
+      #positions .position .position-right {
+        padding-left: 30px; }
+      #positions .position .position-left {
+        padding-right: 30px; }
       #positions .position .position__content {
-        top: 25%; } }
+        margin-top: 60px; }
+        #positions .position .position__content p {
+          font-size: .9em; }
+        #positions .position .position__content .position-nav {
+          display: block; }
+        #positions .position .position__content #dentist2 {
+          display: none; }
+        #positions .position .position__content #dentistB {
+          display: none; }
+        #positions .position .position__content #hygienist2 {
+          display: none; }
+        #positions .position .position__content #hygienistB {
+          display: none; }
+        #positions .position .position__content #assistant2 {
+          display: none; }
+        #positions .position .position__content #assistantB {
+          display: none; } }
+@media (min-width: 992px) {
+  #positions .position {
+    height: 700px; }
+    #positions .position .position__content p {
+      font-size: 1em; } }
 #about {
   padding-top: 85px;
   padding-bottom: 100px;
   background-color: #3BB487; }
   #about h2 {
-    color: #ffffff;
-    margin-bottom: 10px; }
+    color: #29638E;
+    margin-bottom: 20px; }
   #about p {
-    color: #ffffff;
+    color: #29638E;
     margin-bottom: 30px; }
-  #about #about-advdental ul {
-    margin-top: 30px;
-    text-align: left; }
-    #about #about-advdental ul li {
-      color: #ffffff;
-      font-size: .8em;
-      font-family: 'Raleway' , sans-serif;
-      font-weight: 400; }
+  #about #about-advdental {
+    margin-top: -10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #ffffff; }
+    #about #about-advdental ul {
+      margin-top: 30px;
+      text-align: left; }
+      #about #about-advdental ul li {
+        color: #29638E;
+        font-size: .8em;
+        font-family: 'Raleway' , sans-serif;
+        font-weight: 400; }
   #about #about-nav {
     text-align: center;
     margin-bottom: 10px;
@@ -261,15 +316,24 @@ header {
       #about #about-nav ul .active {
         border-bottom: 4px solid #ffffff; }
   #about #about-mindy {
+    margin-top: -10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
     display: none; }
     #about #about-mindy img {
-      margin-bottom: 20px; }
+      width: 100%; }
+    #about #about-mindy h6 {
+      margin-bottom: 30px; }
 
 @media (min-width: 768px) {
   #about #about-advdental ul li {
-    font-size: 1.25em; }
+    font-size: 1em; }
   #about #about-nav ul {
     font-size: 1.5em; } }
+@media (min-width: 1200px) {
+  #about #about-advdental ul li {
+    font-size: 1.25em; } }
 #info {
   padding-top: 85px;
   padding-bottom: 100px;

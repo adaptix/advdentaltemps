@@ -75,6 +75,13 @@ nav {
       padding: 0; }
       #nav-menu #nav-list ul li a {
         font-size: 3em;
-        text-transform: uppercase; }
+        color: #ffffff;
+        font-family: 'Raleway' , sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+      #nav-menu #nav-list ul li a:hover {
+        text-decoration: none;
+        border-bottom: 9px solid #ffffff; }
 
 /*# sourceMappingURL=navigation.css.map */

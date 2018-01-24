@@ -45,6 +45,55 @@ $(document).ready(function(){
 		$(this).addClass('active');
 	});
 
+	//Position Navs
+
+	//Dentist
+	$('#dentistA').click(function(){
+		$('#dentist1').hide();
+		$('#dentist2').show();
+		$('#dentistA').hide();
+		$('#dentistB').show();
+	});
+
+	$('#dentistB').click(function(){
+		$('#dentist1').show();
+		$('#dentist2').hide();
+		$('#dentistA').show();
+		$('#dentistB').hide();
+	});
+
+	//Hygienist
+	$('#hygienistA').click(function(){
+		$('#hygienist1').hide();
+		$('#hygienist2').show();
+		$('#hygienistA').hide();
+		$('#hygienistB').show();
+	});
+
+	$('#hygienistB').click(function(){
+		$('#hygienist1').show();
+		$('#hygienist2').hide();
+		$('#hygienistA').show();
+		$('#hygienistB').hide();
+	});
+
+	//Assistant
+	$('#assistantA').click(function(){
+		$('#assistant1').hide();
+		$('#assistant2').show();
+		$('#assistantA').hide();
+		$('#assistantB').show();
+	});
+
+	$('#assistantB').click(function(){
+		$('#assistant1').show();
+		$('#assistant2').hide();
+		$('#assistantA').show();
+		$('#assistantB').hide();
+	});
+
+
+
 });
 
 /*$(function() {

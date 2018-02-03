@@ -39,6 +39,8 @@ nav {
       font-family: 'Raleway' , sans-serif;
       font-weight: 900;
       text-transform: uppercase; }
+    nav #nav-container #nav-open span:hover {
+      cursor: pointer; }
 
 #nav-menu {
   position: fixed;
@@ -62,6 +64,8 @@ nav {
       font-family: 'Raleway' , sans-serif;
       font-weight: 900;
       text-transform: uppercase; }
+    #nav-menu #nav-close span:hover {
+      cursor: pointer; }
   #nav-menu #nav-list {
     height: 90%;
     display: flex;
@@ -83,5 +87,9 @@ nav {
       #nav-menu #nav-list ul li a:hover {
         text-decoration: none;
         border-bottom: 9px solid #ffffff; }
+      #nav-menu #nav-list ul li a:active {
+        text-decoration: none; }
+      #nav-menu #nav-list ul li a:focus {
+        text-decoration: none; }
 
 /*# sourceMappingURL=navigation.css.map */

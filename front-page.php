@@ -62,8 +62,8 @@
           </div>
 
           <div class="position-nav">
-            <button class="btn btn-default" id="dentistA">Read more</button>
-            <button class="btn btn-default" id="dentistB" href="">Go Back</button>
+            <button class="btn button" id="dentistA">Read more</button>
+            <button class="btn button" id="dentistB" href="">Go Back</button>
           </div>
 
         </div>
@@ -87,8 +87,8 @@
           </div>
 
           <div class="position-nav">
-            <button class="btn btn-default" id="hygienistA">Read more</button>
-            <button class="btn btn-default" id="hygienistB" href="">Go Back</button>
+            <button class="btn button" id="hygienistA">Read more</button>
+            <button class="btn button" id="hygienistB" href="">Go Back</button>
           </div>
 
         </div>
@@ -118,8 +118,8 @@
           </div>
 
           <div class="position-nav">
-            <button class="btn btn-default" id="assistantA">Read more</button>
-            <button class="btn btn-default" id="assistantB" href="">Go Back</button>
+            <button class="btn button" id="assistantA">Read more</button>
+            <button class="btn button" id="assistantB" href="">Go Back</button>
           </div>
 
         </div>
@@ -213,38 +213,57 @@
 <!-- BEGIN INFO SECTION -->
 <section id="info" class="col-xs-12">
   <div class="advdental-container">
-    <div id="resources" class="col-xs-12 col-sm-9">
-      <div class="resource col-xs-4">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-logo.png" alt="Advanced Dental Associates, Inc. logo.">
+    <div id="resources" class="col-xs-12 col-md-8">
+
+      <h3>Resources:</h3>
+
+      <div class="col-xs-12">
+        <div class="resource col-xs-12 col-sm-4">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/ncdbe.jpg" alt="Northa Carolina State Board of Dental Examiners logo">
+          <h4><a target="_blank" href="">North Carolina State Board of Dental Examiners</a></h4>
+        </div>
+        <div class="resource col-xs-12 col-sm-4">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/adha.jpg" alt="American Dental Hygienist's Association logo">
+          <h4><a target="_blank" href="">American Dental Hygienist's Association</a></h4>
+        </div>
+        <div class="resource col-xs-12 col-sm-4">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/wake_ahec.jpg" alt="Wake AHEC logo">
+          <h4><a target="_blank" href="">Wake AHEC</a></h4>
+        </div>
       </div>
-      <div class="resource col-xs-4">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-logo.png" alt="Advanced Dental Associates, Inc. logo.">
+      <div class="col-xs-12">
+        <div class="resource col-xs-12 col-sm-4">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/danb.jpg" alt="Dental Assisting National Board, Inc. logo">
+          <h4><a target="_blank" href="">Dental Assisting National Board, Inc.</a></h4>
+        </div>
+        <div class="resource col-xs-12 col-sm-4">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/dds.jpg" alt="Diversified Dental Staffing, Inc. logo">
+          <h4><a target="_blank" href="">Diversified Dental Staffing, Inc.</a></h4>
+        </div>
+        <div class="resource col-xs-12 col-sm-4">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/dcps.jpg" alt="Dental Evolutions logo">
+          <h4><a target="_blank" href="">Dental Solutions</a></h4>
+        </div>
       </div>
-      <div class="resource col-xs-4">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-logo.png" alt="Advanced Dental Associates, Inc. logo.">
-      </div>
-      <div class="resource col-xs-4">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-logo.png" alt="Advanced Dental Associates, Inc. logo.">
-      </div>
-      <div class="resource col-xs-4">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-logo.png" alt="Advanced Dental Associates, Inc. logo.">
-      </div>
-      <div class="resource col-xs-4">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-logo.png" alt="Advanced Dental Associates, Inc. logo.">
-      </div>
-      <div class="resource col-xs-4">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-logo.png" alt="Advanced Dental Associates, Inc. logo.">
-      </div>
-      <div class="resource col-xs-4">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-logo.png" alt="Advanced Dental Associates, Inc. logo.">
-      </div>
-      <div class="resource col-xs-4">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-logo.png" alt="Advanced Dental Associates, Inc. logo.">
+      <div class="col-xs-12">
+        <div class="resource col-xs-12 col-sm-4">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/rdh.jpg" alt="North Carolina Dental Hygiene Association logo">
+          <h4><a target="_blank" href="">North Carolina Dental Hygiene Association</a></h4>
+        </div>
+        <div class="resource col-xs-12 col-sm-4">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/ncds.jpg" alt="North Carolina Dental Society logo">
+          <h4><a target="_blank" href="">North Carolina Dental Society</a></h4>
+        </div>
+        <div class="resource col-xs-12 col-sm-4">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/hai.jpg" alt="Hygiene Associates, Inc. logo">
+          <h4><a target="_blank" href="">Hygiene Associates, Inc.</a></h4>
+        </div>
       </div>
     </div>
-    <div id="referral" class="col-xs-12 col-sm-3">
-      <h3>For clients & temps</h3>
-      <a class="btn btn-default" href="">Dental Referral Slip</a>
+    <div id="referral" class="col-xs-12 col-md-4">
+      <h3>Dental Referral Slip:</h3>
+      <p>For clients & temps.</p>
+      <a class="btn button" href="">Download Referral Slip</a>
     </div>
   </div>
 </section>
@@ -295,14 +314,14 @@
 
       <!-- Begin contact info. -->
       <div id="contact-info" class="col-xs-12 col-sm-6">
-        <div class="col-xs-6">
+        <div class="col-xs-12 col-lg-7">
           <h3>Our Address:</h3>
           <p>Advanced Dental Associates, Inc.<br>
             11312 US 15-501 North<br>
             Suite 107-139<br>
             Chapel Hill, NC 27517</p>
         </div>
-        <div class="col-xs-6">
+        <div class="col-xs-12 col-lg-5">
           <h3>Call us:</h3>
           <p>Phone: 919.545.0985</p>
         </div>

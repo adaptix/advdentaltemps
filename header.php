@@ -59,7 +59,7 @@
     <div id="nav-container">
       <a href="">
         <div id="nav-logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-logo.png" alt="Advanced Dental Associates, Inc. logo.">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/advanced_dental_logo.png" alt="Advanced Dental Associates, Inc. logo.">
           <h1>Advanced Dental<br> Associates, Inc.</h1>
         </div>
       </a>

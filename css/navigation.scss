@@ -50,6 +50,9 @@ nav {
         font-weight: 900;
         text-transform: uppercase;
       }
+      span:hover {
+        cursor: pointer;
+      }
     }
   }
 }
@@ -76,6 +79,9 @@ nav {
       font-weight: 900;
       text-transform: uppercase;
     }
+    span:hover {
+      cursor: pointer;
+    }
   }
   #nav-list {
     height: 90%;
@@ -100,6 +106,12 @@ nav {
         a:hover {
           text-decoration: none;
           border-bottom: 9px solid $white;
+        }
+        a:active {
+          text-decoration: none;
+        }
+        a:focus {
+          text-decoration: none;
         }
       }
     }

@@ -3,6 +3,38 @@
 font-family: 'Raleway', sans-serif; weights: 100,400,900
 font-family: 'Playfair Display', serif; weights: 400,900;
 */
+/* Links */
+a {
+  outline: 0 !important; }
+
+/* Buttons */
+.button {
+  outline: 0 !important;
+  border-radius: 50px;
+  background-color: #3BB487;
+  padding: 10px 30px 10px 30px;
+  color: #ffffff;
+  font-family: 'Raleway' , sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+.button:hover {
+  background-color: #7CDDB5;
+  color: #ffffff; }
+
+.button:active {
+  background-color: #7CDDB5;
+  color: #ffffff; }
+
+.button:focus {
+  background-color: #3BB487;
+  color: #ffffff; }
+
+.button:visited:hover {
+  background-color: #7CDDB5;
+  color: #ffffff; }
+
 /* Typography */
 p {
   font-size: 1em;
@@ -27,6 +59,11 @@ h3 {
   font-size: 1.5em;
   font-family: 'Raleway' , sans-serif;
   font-weight: 900; }
+
+h4 {
+  font-size: 1.25em;
+  font-family: 'Raleway' , sans-serif;
+  font-weight: 400; }
 
 @media (min-width: 768px) {
   h1 {
@@ -202,6 +239,8 @@ header {
 }*/
 #positions {
   padding-bottom: 100px; }
+  #positions button {
+    margin-top: 10px; }
   #positions .position {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -338,12 +377,47 @@ header {
   padding-top: 85px;
   padding-bottom: 100px;
   background-color: #29638E; }
+  #info #resources h3 {
+    color: #ffffff;
+    text-align: center; }
   #info #resources .resource {
-    margin: 0;
-    padding: 0; }
-  #info #referral h3 {
-    color: #3BB487; }
+    margin: 0; }
+    #info #resources .resource img {
+      display: none; }
+    #info #resources .resource img:hover {
+      cursor: pointer; }
+  #info #resources h4 {
+    text-align: center;
+    font-size: 1em; }
+    #info #resources h4 a {
+      color: #7CDDB5; }
+    #info #resources h4 a:hover {
+      color: #7CDDB5;
+      text-decoration: underline; }
+  #info #referral {
+    padding-top: 50px;
+    text-align: center; }
+    #info #referral h3 {
+      color: #ffffff; }
+    #info #referral p {
+      color: #ffffff; }
 
+@media (min-width: 768px) {
+  #info #resources .resource {
+    padding-left: 0%;
+    padding-right: 0%;
+    padding: 10px; }
+    #info #resources .resource img {
+      display: block; }
+    #info #resources .resource img:hover {
+      cursor: pointer; }
+  #info #resources h4 {
+    text-align: left;
+    font-size: 1.25em; } }
+@media (min-width: 992px) {
+  #info #referral {
+    padding-top: 0px;
+    text-align: left; } }
 #contact {
   padding-top: 85px;
   padding-bottom: 100px;
@@ -377,7 +451,9 @@ header {
 
 @media (min-width: 768px) {
   #contact #forms-nav ul {
-    font-size: 1.5em; } }
+    font-size: 1.5em; }
+  #contact #contact-info {
+    padding-top: 100px; } }
 footer {
   background-color: #29638E;
   color: #ffffff;

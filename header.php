@@ -38,10 +38,9 @@
 
 <body><!-- Body begins here. -->
 
-  <!--<div class="preload">
-    <img src="http://i.imgur.com/KUJoe.gif">
-    <span>Cleaning teeth...</span>
-  </div>-->
+  <div class="preload">
+    <img class="loader" src="<?php echo get_bloginfo('template_directory'); ?>/img/loader.gif">
+  </div>
 
   <div id="tooshort">
     <h1>Stop squishing me!</h1>
@@ -59,7 +58,7 @@
     <div id="nav-container">
       <a href="">
         <div id="nav-logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/advanced_dental_logo.png" alt="Advanced Dental Associates, Inc. logo.">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/advdental-logo.png" alt="Advanced Dental Associates, Inc. logo.">
           <h1>Advanced Dental<br> Associates, Inc.</h1>
         </div>
       </a>

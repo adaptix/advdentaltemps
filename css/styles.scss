@@ -16,6 +16,19 @@ a {
   outline: 0 !important;
 }
 
+section {
+  outline: 0 !important;
+}
+
+::selection {
+  background: $darkblue; /* WebKit/Blink Browsers */
+  color: $white;
+}
+::-moz-selection {
+  background: $darkblue; /* Gecko Browsers */
+  color: $white;
+}
+
 /* Buttons */
 
 .button {
@@ -113,12 +126,13 @@ h4 {
 /* Universal */
 body {
   font-size: 16px;
+  background-color: $darkblue;
 }
 
 @media (max-height: 374px) {
 
   #tooshort {
-    color: $darkblue;
+    color: $white;
     margin-top: 15%;
     text-align: center;
     width: 90%;
@@ -129,7 +143,7 @@ body {
   }
 
   .content {
-    display: none;
+    display: none !important;
   }
 
 }
@@ -137,7 +151,7 @@ body {
 @media (max-width: 319px) {
 
   #toonarrow {
-    color: $darkblue;
+    color: $white;
     margin-top: 15%;
     text-align: center;
     width: 90%;
@@ -148,7 +162,7 @@ body {
   }
 
   .content {
-    display: none;
+    display: none !important;
   }
 
 }
@@ -347,26 +361,41 @@ header {
 
 }
 
-/*.content {
+.content {
   display:none;
 }
 .preload {
+  background-color: $lightblue;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   span {
-    margin-top: 20px;
+    margin-top: 10px;
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: $darkblue;
+    text-transform: uppercase;
   }
-}*/
+  img {
+    margin-top: -30px;
+    width: 100px;
+  }
+}
 
 #positions {
   padding-bottom: 100px;
+  .positions-container {
+    padding: 0;
+    background-color: $white;
+  }
   button {
     margin-top: 10px;
   }
   .position {
+    padding: 0;
     padding-top: 50px;
     padding-bottom: 50px;
     color: $darkblue;
@@ -662,6 +691,7 @@ header {
 }
 
 #contact {
+  background-color: $white;
   padding-top: 85px;
   padding-bottom: 100px;
   color: $darkblue;
@@ -699,6 +729,67 @@ header {
   }
   #applicant-form {
     display: none;
+  }
+  .nf-form-fields-required {
+    margin-bottom: 10px;
+  }
+  label {
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+  input[type=text],input[type=email] {
+    border: 1px solid $darkblue;
+    width: 100%;
+    font-size: 1em;
+    color: $darkblue;
+    font-family: 'Playfair Display' , serif;
+    font-weight: 400;
+    padding: 5px;
+  }
+  textarea {
+    border: 1px solid $darkblue;
+    resize: none;
+    height: 150px;
+    max-height: 150px;
+    width: 100%;
+    font-size: 1em;
+    color: $darkblue;
+    font-family: 'Playfair Display' , serif;
+    font-weight: 400;
+    padding: 5px;
+  }
+  input[type=text]:focus,input[type=email]:focus,textarea:focus {
+    border: 1px solid $green;
+    transition: ease-in-out, width .35s ease-in-out;
+    box-shadow: none;
+    outline-color: transparent;
+    outline-style: none;
+  }
+  button[type=submit] {
+    margin-top: 10px;
+    outline: 0 !important;
+    border: none;
+    border-radius: 50px;
+    background-color: $green;
+    padding: 10px 30px 10px 30px;
+    color: $white;
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  button[type=submit]:hover {
+    background-color: $lightgreen;
+    color: $white;
+    border: none;
+  }
+  button[type=submit]:focus {
+    background-color: $green;
+    color: $white;
+    border: none;
   }
 }
 

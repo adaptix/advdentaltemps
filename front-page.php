@@ -42,104 +42,108 @@
 
     <div class="advdental-container">
 
-      <!-- Dentist section begins here. -->
-      <div class="position col-xs-12">
-        <div class="visible-xs col-xs-12 col-sm-6">
-          <img class="visible-xs" src="<?php echo get_template_directory_uri(); ?>/img/dentist.jpg" alt="Photo of Dentist.">
-        </div>
-        <div id="dentist" class="col-xs-12 col-sm-6">
-          <!-- Image loaded in CSS. -->
-        </div>
-        <div class="position__content position-right col-xs-12 col-sm-6">
-          <h2>Dentists</h2>
+      <div class="positions-container col-xs-12">
 
-          <div id="dentist1">
-            <p>Our dentist are all licensed in the state of North Carolina and carry all current credentials, which are on file and updated in our office, yearly. We welcome new graduates and seasoned dentists, offering them the opportunity to work temporarily or permanently in a variety of capacities: checking hygiene and seeing emergencies; checking hygiene, operative, and seeing emergencies. This can be for a daily, weekly, or monthly position. Most of our dentists are requested back to offices over and over again with the opportunity for steady work, Associateships, and office transitions. We offer the setting for dentist to build relationships in the field with constant networking in a variety of offices.</p>
+        <!-- Dentist section begins here. -->
+        <div class="position col-xs-12">
+          <div class="visible-xs col-xs-12 col-sm-6">
+            <img class="visible-xs" src="<?php echo get_template_directory_uri(); ?>/img/dentist.jpg" alt="Photo of Dentist.">
           </div>
-
-          <div id="dentist2">
-            <p>Temping as a dentist is a win, win for a new graduate. Our biggest compliment from our temporary dentists are they take something valuable from each office. This gives them a chance to see how a dental office is actually operated and they experience , different philosophies, product used, management styles, benefits they offer their staff, marketing techniques, and what they will take or leave from the experience. ( the good, the bad and the ugly) We have two state of the art dental schools in North Carolina: UNC Dental School in Chapel Hill and ECU Dental School in Greenville.</p>
+          <div id="dentist" class="col-xs-12 col-sm-6">
+            <!-- Image loaded in CSS. -->
           </div>
+          <div class="position__content position-right col-xs-12 col-sm-6">
+            <h2>Dentists</h2>
 
-          <div class="position-nav">
-            <button class="btn button" id="dentistA">Read more</button>
-            <button class="btn button" id="dentistB" href="">Go Back</button>
+            <div id="dentist1">
+              <p>Our dentist are all licensed in the state of North Carolina and carry all current credentials, which are on file and updated in our office, yearly. We welcome new graduates and seasoned dentists, offering them the opportunity to work temporarily or permanently in a variety of capacities: checking hygiene and seeing emergencies; checking hygiene, operative, and seeing emergencies. This can be for a daily, weekly, or monthly position. Most of our dentists are requested back to offices over and over again with the opportunity for steady work, Associateships, and office transitions. We offer the setting for dentist to build relationships in the field with constant networking in a variety of offices.</p>
+            </div>
+
+            <div id="dentist2">
+              <p>Temping as a dentist is a win, win for a new graduate. Our biggest compliment from our temporary dentists are they take something valuable from each office. This gives them a chance to see how a dental office is actually operated and they experience , different philosophies, product used, management styles, benefits they offer their staff, marketing techniques, and what they will take or leave from the experience. ( the good, the bad and the ugly) We have two state of the art dental schools in North Carolina: UNC Dental School in Chapel Hill and ECU Dental School in Greenville.</p>
+            </div>
+
+            <div class="position-nav">
+              <button class="btn button" id="dentistA">Read more</button>
+              <button class="btn button" id="dentistB" href="">Go Back</button>
+            </div>
+
           </div>
-
         </div>
+        <!-- Dentist section ends here. -->
+
+        <!-- Dental Hygienists section begins here. -->
+        <div class="position col-xs-12">
+          <div class="visible-xs col-xs-12 col-sm-6">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/dental-hygienist.jpg" alt="Photo of Dental Hygienist.">
+          </div>
+          <div class="position__content position-left col-xs-12 col-sm-6">
+            <h2>Dental Hygienists</h2>
+
+            <div id="hygienist1">
+              <p>Dental hygienists either have an Associate's or Bachelor's Degree from an accredited college in order to work as a licensed professional. Our hygienists are all licensed by the state of North Carolina and update their credentials in our office yearly. They are dependable, reliable, prompt, and dedicated individuals who take their jobs seriously with the utmost integrity. Whether they are temporary or permanent candidates, they treat each patient with respect. We facilitate permanent and temporary placements throughout the area and are well respected. If you are relocating to our area, getting back into the workforce, looking for a job change or just wanted to pick up some extra days we would love to help you.Our candidates can be placed on a daily, weekly, monthly basis. It could be a sick leave, maternity leave or vacation leave. We recruit through the many colleges in North Carolina that offer a dental hygiene program.</p>
+            </div>
+
+            <div id="hygienist2">
+              <p>Advanced Dental Associates Inc. offers lunch and learns to the students to inform them of the many job opportunities in the area, how to prepare for an interview, what to look for in their first job, and to help them adjust to keeping on schedule through various temporary positions as soon as they are licensed. We also exhibit and sponsor at most North Carolina Dental Hygiene Association meetings and are proud members of the Association.</p>
+            </div>
+
+            <div class="position-nav">
+              <button class="btn button" id="hygienistA">Read more</button>
+              <button class="btn button" id="hygienistB" href="">Go Back</button>
+            </div>
+
+          </div>
+          <div id="dental-hygienist" class="col-xs-12 col-sm-6">
+            <!-- Image loaded in CSS. -->
+          </div>
+        </div>
+        <!-- Dental Hygienists section ends here. -->
+
+        <!-- Dental Assistants section begins here. -->
+        <div class="position col-xs-12">
+          <div class="visible-xs col-xs-12 col-sm-6">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/dental-assistant.jpg" alt="Photo of Dental Assistant.">
+          </div>
+          <div id="dental-assistant" class="col-xs-12 col-sm-6">
+            <!-- Image loaded in CSS. -->
+          </div>
+          <div class="position__content position-right col-xs-12 col-sm-6">
+            <h2>Dental Assistants</h2>
+
+            <div id="assistant1">
+              <p>Dental Assistants in North Carolina are classified in two categories, DAII which is a graduate of an ADA-accredited dental assisting program or completed the Dental Assisting National Board and are a CDA, or on the job trained under the direct supervision of a dentist, with courses in radiology, medical emergencies, infection control, coronal polishing and CPR (full time employment under the direct supervision of a dentist to equal 2 years or 3000 hours) DAI is on the job trained with limited duties, usually has courses in radiology, infection control, medical emergencies and CPR. Visit www.ncdentalboard.org for a complete list of delegable functions of dental assistants in our state.</p>
+            </div>
+
+            <div id="assistant2">
+              <p>We recruit and place temporary and permanent dental assistants that are upbeat, dependable, reliable and professional. The dental assistant plays an integral role in a dental office, a knowledgeable, contentious, cooperative, prepared assistant, that can multi-task will always be employed. Advanced Dental Associates Inc. is always recruiting top notch assistants for our clients whether it’s on a daily basis or permanent hire. Working interviews will seal the deal on the right placement. Our most requested dental assistant is a DAII, but we do have positions for DAI’s.</p>
+            </div>
+
+            <div class="position-nav">
+              <button class="btn button" id="assistantA">Read more</button>
+              <button class="btn button" id="assistantB" href="">Go Back</button>
+            </div>
+
+          </div>
+        </div>
+        <!-- Dental Assistants section ends here. -->
+
+        <!-- Front Office Staff section begins here. -->
+        <div class="position col-xs-12">
+          <div class="visible-xs col-xs-12 col-sm-6">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/office-manager.jpg" alt="Photo of front office staff personel.">
+          </div>
+          <div class="position__content position-left col-xs-12 col-sm-6">
+            <h2>Front Office Staff</h2>
+            <p>The first person anyone sees in a dental office is your front office staff. They are the face of the office and will be an integral part of the dental team. Organization, communication and excellent customer service skills are of the utmost of importance. Dental software varies from office to office so good computer skills are a must. Whether you are on the job trained or a seasoned receptionist, financial coordinator, insurance specialist, office manager, we can help you find the right position. This is generally a position that is a permanent placement, but we do list maternity leaves and sick leaves for temporary placement. It’s a tough position to place on a daily basis.</p>
+          </div>
+          <div id="front-office-staff" class="col-xs-12 col-sm-6">
+            <!-- Image loaded in CSS. -->
+          </div>
+        </div>
+        <!-- Front Office Staff section ends here. -->
+
       </div>
-      <!-- Dentist section ends here. -->
-
-      <!-- Dental Hygienists section begins here. -->
-      <div class="position col-xs-12">
-        <div class="visible-xs col-xs-12 col-sm-6">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/dental-hygienist.jpg" alt="Photo of Dental Hygienist.">
-        </div>
-        <div class="position__content position-left col-xs-12 col-sm-6">
-          <h2>Dental Hygienists</h2>
-
-          <div id="hygienist1">
-            <p>Dental hygienists either have an Associate's or Bachelor's Degree from an accredited college in order to work as a licensed professional. Our hygienists are all licensed by the state of North Carolina and update their credentials in our office yearly. They are dependable, reliable, prompt, and dedicated individuals who take their jobs seriously with the utmost integrity. Whether they are temporary or permanent candidates, they treat each patient with respect. We facilitate permanent and temporary placements throughout the area and are well respected. If you are relocating to our area, getting back into the workforce, looking for a job change or just wanted to pick up some extra days we would love to help you.Our candidates can be placed on a daily, weekly, monthly basis. It could be a sick leave, maternity leave or vacation leave. We recruit through the many colleges in North Carolina that offer a dental hygiene program.</p>
-          </div>
-
-          <div id="hygienist2">
-            <p>Advanced Dental Associates Inc. offers lunch and learns to the students to inform them of the many job opportunities in the area, how to prepare for an interview, what to look for in their first job, and to help them adjust to keeping on schedule through various temporary positions as soon as they are licensed. We also exhibit and sponsor at most North Carolina Dental Hygiene Association meetings and are proud members of the Association.</p>
-          </div>
-
-          <div class="position-nav">
-            <button class="btn button" id="hygienistA">Read more</button>
-            <button class="btn button" id="hygienistB" href="">Go Back</button>
-          </div>
-
-        </div>
-        <div id="dental-hygienist" class="col-xs-12 col-sm-6">
-          <!-- Image loaded in CSS. -->
-        </div>
-      </div>
-      <!-- Dental Hygienists section ends here. -->
-
-      <!-- Dental Assistants section begins here. -->
-      <div class="position col-xs-12">
-        <div class="visible-xs col-xs-12 col-sm-6">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/dental-assistant.jpg" alt="Photo of Dental Assistant.">
-        </div>
-        <div id="dental-assistant" class="col-xs-12 col-sm-6">
-          <!-- Image loaded in CSS. -->
-        </div>
-        <div class="position__content position-right col-xs-12 col-sm-6">
-          <h2>Dental Assistants</h2>
-
-          <div id="assistant1">
-            <p>Dental Assistants in North Carolina are classified in two categories, DAII which is a graduate of an ADA-accredited dental assisting program or completed the Dental Assisting National Board and are a CDA, or on the job trained under the direct supervision of a dentist, with courses in radiology, medical emergencies, infection control, coronal polishing and CPR (full time employment under the direct supervision of a dentist to equal 2 years or 3000 hours) DAI is on the job trained with limited duties, usually has courses in radiology, infection control, medical emergencies and CPR. Visit www.ncdentalboard.org for a complete list of delegable functions of dental assistants in our state.</p>
-          </div>
-
-          <div id="assistant2">
-            <p>We recruit and place temporary and permanent dental assistants that are upbeat, dependable, reliable and professional. The dental assistant plays an integral role in a dental office, a knowledgeable, contentious, cooperative, prepared assistant, that can multi-task will always be employed. Advanced Dental Associates Inc. is always recruiting top notch assistants for our clients whether it’s on a daily basis or permanent hire. Working interviews will seal the deal on the right placement. Our most requested dental assistant is a DAII, but we do have positions for DAI’s.</p>
-          </div>
-
-          <div class="position-nav">
-            <button class="btn button" id="assistantA">Read more</button>
-            <button class="btn button" id="assistantB" href="">Go Back</button>
-          </div>
-
-        </div>
-      </div>
-      <!-- Dental Assistants section ends here. -->
-
-      <!-- Front Office Staff section begins here. -->
-      <div class="position col-xs-12">
-        <div class="visible-xs col-xs-12 col-sm-6">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/office-manager.jpg" alt="Photo of front office staff personel.">
-        </div>
-        <div class="position__content position-left col-xs-12 col-sm-6">
-          <h2>Front Office Staff</h2>
-          <p>The first person anyone sees in a dental office is your front office staff. They are the face of the office and will be an integral part of the dental team. Organization, communication and excellent customer service skills are of the utmost of importance. Dental software varies from office to office so good computer skills are a must. Whether you are on the job trained or a seasoned receptionist, financial coordinator, insurance specialist, office manager, we can help you find the right position. This is generally a position that is a permanent placement, but we do list maternity leaves and sick leaves for temporary placement. It’s a tough position to place on a daily basis.</p>
-        </div>
-        <div id="front-office-staff" class="col-xs-12 col-sm-6">
-          <!-- Image loaded in CSS. -->
-        </div>
-      </div>
-      <!-- Front Office Staff section ends here. -->
 
     </div><!-- Ends advdental-container. -->
 
@@ -263,7 +267,7 @@
     <div id="referral" class="col-xs-12 col-md-4">
       <h3>Dental Referral Slip:</h3>
       <p>For clients & temps.</p>
-      <a class="btn button" href="">Download Referral Slip</a>
+      <a class="btn button" href="<?php echo get_template_directory_uri(); ?>/files/time-sheet.pdf">Download Referral Slip</a>
     </div>
   </div>
 </section>
@@ -287,25 +291,15 @@
 
         <!-- Begin client form. -->
         <div id="client-form">
-          <form>
-            <h3>1</h3>
-            First name:<br>
-            <input type="text" name="firstname"><br>
-            Last name:<br>
-            <input type="text" name="lastname">
-          </form>
+          <h3>Client Contact Form</h3>
+          <?php dynamic_sidebar( 'client-form' ); ?>
         </div>
         <!-- End client form. -->
 
         <!-- Begin applicant form. -->
         <div id="applicant-form">
-          <form>
-            <h3>2</h3>
-            First name:<br>
-            <input type="text" name="firstname"><br>
-            Last name:<br>
-            <input type="text" name="lastname">
-          </form>
+          <h3>Applicant Contact Form</h3>
+          <?php dynamic_sidebar( 'applicant-form' ); ?>
         </div>
         <!-- End applicant form. -->
 

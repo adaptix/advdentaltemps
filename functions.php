@@ -18,8 +18,17 @@
   function arphabet_widgets_init() {
 
 		register_sidebar( array(
-  		'name'          => 'Example Widget',
-  		'id'            => 'example-widget',
+  		'name'          => 'Client Form',
+  		'id'            => 'client-form',
+  		'before_widget' => '<div>',
+  		'after_widget'  => '</div>',
+  		'before_title'  => '<h2 class="rounded">',
+  		'after_title'   => '</h2>',
+  	) );
+
+		register_sidebar( array(
+  		'name'          => 'Applicant Form',
+  		'id'            => 'applicant-form',
   		'before_widget' => '<div>',
   		'after_widget'  => '</div>',
   		'before_title'  => '<h2 class="rounded">',
